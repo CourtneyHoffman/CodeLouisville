@@ -1,5 +1,5 @@
 /************************
-GENERAL
+General
 ************************/
 body {
   font-family: 'Zilla Slab', serif;
@@ -14,6 +14,8 @@ body {
 
 a {
   text-decoration: none;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px white;
 }
 
 img {
@@ -21,11 +23,11 @@ img {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 6em;
   color: white;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 5px 5px 5px black;
 }
 
 /************************
@@ -52,7 +54,7 @@ Heading
   font-size: 1.6em;
   color: white;
   text-align: center;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 3px 3px 3px black;
 }
 
 
@@ -62,6 +64,10 @@ Heading
   background: #000 url(http://wallpoper.com/images/00/25/42/56/fruits-food_00254256.jpg) no-repeat bottom;
   background-size: cover;
 }
+
+/************************
+Navigation
+************************/
 
 nav {
   text-decoration: none;
@@ -76,11 +82,9 @@ nav li {
   padding: 0 3em 10px 10px;
 }
 
-
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-}
+/************************
+Columns
+************************/
 
 #colOne,
 #colTwo {
@@ -100,6 +104,7 @@ nav li {
 /************************
 FORMS
 ************************/
+
 form {
   max-width: 300px;
   margin: 10px;
