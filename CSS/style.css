@@ -1,0 +1,136 @@
+/************************
+GENERAL
+************************/
+body {
+  font-family: 'Zilla Slab', serif;
+  margin: 0;
+  max-width: 100%;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+/************************
+Pseudo-classes
+************************/
+
+a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a.selected,
+a:hover {
+  color: lightgrey;
+}
+
+
+/************************
+Heading
+************************/
+.main-header p {
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+.main-header {
+  padding: 50px 50px;
+  height: 280px;
+  background: #000 url(http://wallpoper.com/images/00/25/42/56/fruits-food_00254256.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+nav {
+  text-decoration: none;
+  background-color: black;
+  width: 100%;
+  color: white;
+  overflow: auto;
+}
+
+nav li {
+  float: left;
+  padding: 0 3em 10px 10px;
+}
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#colOne,
+#colTwo {
+  max-width: 47%;
+}
+
+#colOne {
+  float: left;
+}
+
+#colTwo {
+  float: right;
+}
+
+
+
+/************************
+FORMS
+************************/
+form {
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: lightgrey;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px black inset;
+}
+
+fieldset {
+  border: none;
+}
+
+/************************
+FOOTER
+************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding: 10px 5px;
+  color: #fff;
+  background-color: black;
+  max-width: 100%;
+}
